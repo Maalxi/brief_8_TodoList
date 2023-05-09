@@ -7,14 +7,13 @@ CREATE DATABASE IF NOT EXISTS todo_list;
 USE todo_list;
 
 CREATE TABLE IF NOT EXISTS todo_list (
-    id INT(10) NOT NULL AUTO_INCREMENT,
+    id INT(10) NOT NULL AUTO_INCREMENT PRIMARY KEY,
     title VARCHAR(50) NOT NULL,
-    desciption VARCHAR(50) NOT NULL,
-    important BOOLEAN NOT NULL DEFAULT false,
-    PRIMARY KEY (id)
+    description VARCHAR(300) NOT NULL,
+    important BOOLEAN NOT NULL DEFAULT false
 );
 
-INSERT INTO todo_list (title, desciption, important) VALUES
+INSERT INTO todo_list (title, description, important) VALUES
 ("Acheter du lait", "Acheter du lait écrémé au supermarché", true),
 ("Faire du sport", "Faire de la course à pied pendant 30 minutes", false),
 ("Apprendre une nouvelle compétence", "Suivre un cours en ligne sur l'apprentissage automatique", true),

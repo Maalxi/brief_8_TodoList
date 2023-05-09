@@ -10,17 +10,7 @@
 </head>
 
 <body>
-  <a href="./assets/php/Games/pageGames.php">Games
-  </a>
-  <a href="./assets/php/Sponsors/pageSponsors.php">Sponsors
-  </a>
-  <a href="./assets/php/Teams/pageTeams.php">Teams
-  </a>
-  <a href="./assets/php/Players/pagePlayers.php">Players
-  </a>
-  <a href="./assets/php/Competitions/pageCompetitions.php">Competitions
-  </a>
-  <a href="./assets/php/Inscriptions/pageInscriptions.php">Inscriptions
+  <a href="./assets/php/TodoList/pageTodo.php">TodoList
   </a>
 </body>
 
