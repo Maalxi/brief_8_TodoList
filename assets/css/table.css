@@ -1,0 +1,28 @@
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+table td,
+table th {
+  border: 1px solid #ccc;
+  padding: 8px;
+}
+
+table tr:first-child {
+  background-color: red;
+  font-weight: bolder;
+  color: black;
+}
+
+table tr:nth-child(even) {
+  background-color: grey;
+}
+
+.button-delete {
+  width: 40px;
+  height: 40px;
+  border-radius: 15%;
+}

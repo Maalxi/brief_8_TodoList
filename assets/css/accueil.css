@@ -1,0 +1,40 @@
+
+a {
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+
+  }
+  a:hover {
+    background-color: red;
+  }
+  
+ 
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 100vh;
+  background-color: black;
+}
+
+@media  (max-width : 800px){
+    body{
+        flex-direction: column;
+    }
+}
+.img_accueil{
+width: 100px;
+height: 100px;
+}
+
+
+ 
+

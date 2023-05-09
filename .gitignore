@@ -1,0 +1,10 @@
+node_modules
+dist
+.cache
+.parcel-cache
+.buildt
+.vscode
+root.session.sql
+
+# Clé API ou autre
+hide

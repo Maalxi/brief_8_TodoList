@@ -1,0 +1,55 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  form input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f2f2f2;
+    margin-bottom: 16px;
+  }
+
+  form select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23333' d='M5.5 7.5l1.5-2h-3z'/%3E%3C/svg%3E");
+    background-position: right 8px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding-right: 32px;
+    cursor: pointer;
+  }
+  
+  form input[type="submit"] {
+    background-color: red;
+    color: #fff;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 4%;
+  }
+  
+  form input[type="submit"]:hover {
+    background-color: #006600;
+  }
+
+  .titre {
+    margin-top: 8%;
+  }
+
